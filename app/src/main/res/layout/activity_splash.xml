@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashActivity">
+
+
+    <Button
+        android:id="@+id/btn_skip"
+        android:layout_width="@dimen/x120"
+        android:layout_height="@dimen/x60"
+        android:layout_gravity="right"
+        android:layout_margin="@dimen/x20"
+        android:text="5 跳过"
+        android:textSize="15sp"
+        android:background="@drawable/shape_countdown_btn"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/img_splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_welcome" />
+
+</FrameLayout>
